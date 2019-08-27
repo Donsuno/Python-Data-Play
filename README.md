@@ -1,8 +1,4 @@
 # Python-Programming
-Source for you to learn python programming from zero
+Source for you to learn python related playing with data
 
-# Chapter One: Installing and Using Python
-# Chapter Two: Variables and Expressions
-# Chapter Three: Conditional Code
-# Chapter Four: Functions
-# Chapter Five: Loops and Iteration
+# Data Analysis
