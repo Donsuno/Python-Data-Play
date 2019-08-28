@@ -1,7 +1,6 @@
 import json
 from datetime import datetime
 from rawprod_to_csv import readxls_rawprod_convertcsv
-from rawprod_to_csv_v2 import readxls_rawprod_convertcsv_v2
 
 # import ptvsd
 
@@ -15,6 +14,7 @@ def lambda_handler(event, context):
         file_obj=event["Records"][0]
         fileName=str(file_obj['s3']['object']['key']).replace("+"," ")
         bucket = str(file_obj['s3']['bucket']['name']).replace("+"," ")
+        
         try:
             x=fileName
             if x=='rsw/uploadhere-user1/rawtest1.xlsx' :
